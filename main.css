@@ -1,0 +1,14 @@
+body {
+    background: #fff;
+}
+
+section {
+    background-color: aqua;
+}
+article {
+    color: fuchsia;
+}
+p {
+    margin-top: 1.3em;
+}
+
