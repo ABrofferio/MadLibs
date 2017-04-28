@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Index</title>
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <h1>Monkey's Mad Libs</h1>
@@ -13,16 +13,57 @@
         <p>With Monkey's Mad Libs you get to take control of your own narrative. Become a pro of prose and bring your text to life!
         </p>
         <section>
-            <article>
+            <h2>The Odyssey - Homer<br>(Translated by Robert Fagles)</h2>
+            <!--PDF: http://www.boyle.kyschools.us/UserFiles/88/The%20Odyssey.pdf-->
+            <article class="original">
+                <div id="originalOdyssey">
                 <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <input type="text" id="adjective1" value="adjective">commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <input type="text" id="color1" value="color">et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, <input type="text" id="verb1" value="verb">ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, <input type="text" id="adjective2" value="adjective">fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis <input type="text" id="adverb1" value="adverb">vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                But now the suitors trooped in with all their swagger and took their seats on low and high-backed chairs. Heralds poured water over their hands for rinsing, serving maids brought bread heaped high in trays
+                and the young men brimmed the mixing-bowls with wine. They reached out for the good things that lay at hand, and when they’d put aside desire for food and drink
+                the suitors set their minds on other pleasures,
+                song and dancing, all that crowns a feast.
+                A herald placed an ornate lyre in Phemius’ hands, the bard who always performed among them there; they forced the man to sing.
                 </p>
                 <p>
-                Integer tincidunt. Cras dapibus. Vivamus elementum semper <input type="text" id="pronoun1" value="pronoun">nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <input type="text" id="verb2" value="verb">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.<input type="text" id="adjective3" value="adjective"> Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper <input type="text" id="properNoun1" value="proper noun">libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et <input type="text" id="number1" value="number">ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci <input type="text" id="adjective4" value="adjective">eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis <input type="text" id="adverb2" value="adverb"> magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
+                A rippling prelude— and no sooner had he struck up his rousing song
+                than Telemachus, head close to Athena’s sparkling eyes, spoke low to his guest so no one else could hear:
+                “Dear stranger, would you be shocked by what I say? Look at them over there. Not a care in the world,
+                just lyres and tunes! Easy for them, all right,
+                they feed on another’s goods and go scot-free—
+                a man whose white bones lie strewn in the rain somewhere, rotting away on land or rolling down the ocean’s salty swells. But that man—if they caught sight of him home in Ithaca, by god, they’d all pray to be faster on their feet
+                than richer in bars of gold and heavy robes.
                 </p>
+                <p>
+                But now, no use, he’s died a wretched death. No comfort’s left for us ... not even if
+                someone, somewhere, says he’s coming home. The day of his return will never dawn.
+                </p>
+                </div>
+                <div class="mad" id="madOdyssey">
+                <p>
+                But now the suitors <input type="text" id="verb1" value="verb (past tense)"> in with all their swagger and took their seats on low and high-backed chairs. Heralds poured <input type="text" id="noun1" value="noun"> over their hands for rinsing, serving maids brought bread heaped high in trays
+                and the <input type="text" id="adjective1" value="adjective"> men brimmed the mixing-bowls with wine. They reached out for the <input type="text" id="adjective2" value="adjective"> things that lay at hand, and when they’d put aside desire for food and drink
+                the suitors set their minds on other pleasures,
+                song and dancing, all that crowns a feast.
+                A herald placed an ornate lyre in Phemius’ hands, the bard who always <input type="text" id="verb2" value="verb (past tense)"> among them there; they forced the man to sing.
+                </p>
+                <p>
+                A rippling prelude— and no sooner had he struck up his rousing song
+                than Telemachus, head close to Athena’s <input type="text" id="adjective3" value="adjective"> eyes, spoke low to his guest so no one else could hear:
+                “Dear stranger, would you be shocked by what I say? Look at them over there. Not a care in the world,
+                just lyres and tunes! Easy for them, all right,
+                they <input type="text" id="verb3" value="verb"> on another’s goods and go scot-free—
+                a man whose <input type="text" id="color1" value="color"> bones lie strewn in the rain somewhere, rotting away on land or rolling down the ocean’s salty swells. But that man—if they caught sight of him home in Ithaca, by god, they’d all pray to be faster on their feet
+                than richer in bars of gold and heavy robes.
+                </p>
+                <p>
+                But now, no use, he’s died a <input type="text" id="adjective4" value="adjective"> death. No comfort’s left for us ... not even if
+                someone, somewhere, says he’s coming home. The day of his return will never dawn.
+                </p>
+                </div>
+                <button id="rewrite">Time for a Rewrite</button>
             </article>
             <article>
-                <div id="magic"></div>
+                <p id="magic">cheetos</p>
             </article>
         </section>
         
