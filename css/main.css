@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    background-color: aqua;
+    background-color: lemonchiffon;
 }
 article{
     margin: 100px;
@@ -11,14 +11,19 @@ article{
     margin-bottom: 100px;
     padding: 100px;
 }
-article:nth-child(1) {
-    color: fuchsia;
-    background-color: chartreuse;
+#originalOdyssey{
+    background-color:rgba(255,255,255, 0.1); 
 }
-article:nth-child(2) {
+#madOdyssey{
+    background-color:rgba(255,255,255, 0.1); 
+}
+#offOdyssey{
+    background-color:rgba(255,255,255, 0.1); 
+}
+article {
     background-color: lemonchiffon;
 }
-.original{
+.text{
     background-image: url(../images/odyssey.jpg);
     background-size: cover;
 }
